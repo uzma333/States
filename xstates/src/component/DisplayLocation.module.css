@@ -1,0 +1,37 @@
+.heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.dropdowns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+}
+
+.dropdown{
+    height: 40px;
+    width: 300px;
+    
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+
+.highlight{
+    font-size:xx-large;
+    font-weight: 700;
+    
+    
+}
+.fade{
+    color:gray;
+}
