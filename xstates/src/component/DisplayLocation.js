@@ -86,7 +86,7 @@ function DisplayLocation(){
         </div>
         {selectedCity &&(
             <p className={styles.result}>
-                You selected  <span className={styles.highlight}> {selectedCity},</span>
+                You selected  <span className={styles.highlight}> {selectedCity},</span>{" "}
                 <span className={styles.fade}>
                     
                     {selectedState}, {selectedCountry}
