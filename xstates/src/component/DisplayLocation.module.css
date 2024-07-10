@@ -24,14 +24,15 @@
     justify-content: center;
     align-items: center;
     gap:5px;
+    font-size:larger;
 }
 
-.highlight{
-    font-size:xx-large;
+/* .highlight{
+    
     font-weight: 700;
     
     
 }
 .fade{
     color:gray;
-}
+} */

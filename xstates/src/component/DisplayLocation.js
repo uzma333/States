@@ -53,12 +53,6 @@ function DisplayLocation(){
         },[selectedCountry,selectedState])
     
 
-        useEffect(() => {
-            console.log("Selected Country:", selectedCountry);
-            console.log("Selected State:", selectedState);
-            console.log("Selected City:", selectedCity);
-          }, [selectedCountry, selectedState, selectedCity]);
-        
 
  return(
     <div>
@@ -91,13 +85,13 @@ function DisplayLocation(){
 
         </div>
         {selectedCity &&(
-            <h2 className={styles.result}>
+            <p className={styles.result}>
                 You selected  <span className={styles.highlight}> {selectedCity},</span>
                 <span className={styles.fade}>
                     
                     {selectedState}, {selectedCountry}
                 </span>
-            </h2>
+            </p>
         )
             
         }
