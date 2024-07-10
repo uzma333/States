@@ -53,6 +53,13 @@ function DisplayLocation(){
         },[selectedCountry,selectedState])
     
 
+        useEffect(() => {
+            console.log("Selected Country:", selectedCountry);
+            console.log("Selected State:", selectedState);
+            console.log("Selected City:", selectedCity);
+          }, [selectedCountry, selectedState, selectedCity]);
+        
+
  return(
     <div>
         <div className={styles.heading}>
